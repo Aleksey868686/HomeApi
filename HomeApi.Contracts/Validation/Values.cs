@@ -5,12 +5,22 @@
     /// </summary>
     public static class Values
     {
-        public static string [] ValidRooms = new  []
+        public static string [] ValidRooms = new []
         {
             "Кухня",
             "Ванная",
             "Гостиная",
             "Туалет"
+        };
+
+        public static int[] ValidVoltage = new []
+        {
+            12,
+            24,
+            48,
+            120,
+            220,
+            380
         };
     }
 }
